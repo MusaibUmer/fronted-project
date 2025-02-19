@@ -1,0 +1,110 @@
+/*universal mark*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*html body*/
+body{
+    background-image: url(img/abstract-textured-backgound.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/*heading */
+header h1{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*form serction */
+.container{
+    position: fixed;
+}
+.container input
+{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    align-items: center;
+    margin-left: 250px;
+    width: 400px;
+    font-size: 20px;
+}
+/*label design*/
+.container label
+{
+    margin-left: 200px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*button design*/
+.container button{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 280px;
+    margin-top: 30px;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
+    color: rgb(36, 23, 148);
+    border-radius: 30px;
+
+}
+/*button hover*/
+.container button:hover{
+    background-color: orange;
+    cursor: auto;
+}
+/*table section*/
+.table-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%; 
+    margin-right: 40px; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1; 
+}
+/*javascript delete button*/
+.delete-button, .edit-button {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+.edit-button {
+    background-color: #2196F3;
+}
+
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.edit-button:hover {
+    background-color: #1976D2;
+}

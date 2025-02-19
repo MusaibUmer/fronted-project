@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <!--icons link-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <header>
+      <div class="hearder">
+        <h1>Student Registration System</h1>
+      </div>
+    </header>
+    <main>
+      <!--form section-->
+      <section>
+        <div class="container">
+          <form id="studentForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" />
+
+            <label for="id">Email ID :</label>
+            <input type="email" id="email" />
+
+            <label for="class">Student ID:</label>
+            <input type="text" id="stdId" />
+
+            <label for="no">Contact No :</label>
+            <input type="text" id="contact" />
+
+            <!--click on submit button to add data on the table-->
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </section>
+
+      <!--table section-->
+      <section class="right">
+        <div class="table-container">
+          <table id="studentTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Student ID</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!--Student data added in javascript-->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <!--javascript link-->
+    <script src="script.js"></script>
+
+    <!--Github repository link-->
+    <a href=""></a>
+  </body>
+</html>
